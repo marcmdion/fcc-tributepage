@@ -1,0 +1,44 @@
+#main {
+	background-color: lightgray;
+	font-family: Ubuntu;
+}
+
+#title {
+	text-align: center;
+	font-weight: bolder;
+}
+
+p {
+	text-align: center;
+}
+
+#image {
+	width: 40vw;
+	max-width: 100%;
+	min-width: 300px;
+	height: auto;
+	margin: 20px;
+	border-radius: 10px;
+}
+
+#img-caption {
+	padding-bottom: 20px;
+}
+
+#img-div {
+	text-align: center;
+	background-color: white;
+	border-radius: 30px;
+}
+
+
+#tribute-info { 
+display: flex;
+flex-direction: column;
+margin: auto 150px;
+min-width: 300px;
+}
+
+#tribute-link {
+	text-align: center;
+}
