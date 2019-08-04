@@ -1,35 +1,48 @@
 #main {
-	background-color: lightgray;
+	// background-color: lightgray;
 	font-family: Ubuntu;
+  
+}
+
+body {
+  background-image: url(https://res.cloudinary.com/marcmdion/image/upload/v1561428427/Vibrant_Universe_Creator-_Freebie_f5fltg.jpg);
+  background-size: cover;
+  color: #D4D4D5;
+  
 }
 
 #title {
 	text-align: center;
-	font-weight: bolder;
+	padding: 10px;
 }
 
 p {
 	text-align: center;
 }
 
+#img-div {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 30px;
+  justify-content: center;
+}
+
+
 #image {
 	width: 40vw;
 	max-width: 100%;
-	min-width: 300px;
+  min-width: 300px;
 	height: auto;
 	margin: 20px;
 	border-radius: 10px;
+  opacity: 1;
 }
 
 #img-caption {
 	padding-bottom: 20px;
+  color: white;
 }
 
-#img-div {
-	text-align: center;
-	background-color: white;
-	border-radius: 30px;
-}
 
 
 #tribute-info { 
@@ -41,4 +54,15 @@ min-width: 300px;
 
 #tribute-link {
 	text-align: center;
+}
+.center {
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+li {
+  padding: 10px;
 }
